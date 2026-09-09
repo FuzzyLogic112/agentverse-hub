@@ -3,330 +3,304 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f5f3ee" />
-    <meta
-      name="description"
-      content="AgentVerse Hub：发现热门 AI Skills、提示词、MCP、CLI、智能体与自动化工作流。"
-    />
-    <meta property="og:title" content="AgentVerse Hub — AI 能力发现站" />
-    <meta
-      property="og:description"
-      content="按行业、功能和类型探索 Skills、提示词、MCP、CLI、智能体与工作流。"
-    />
+    <meta name="theme-color" content="#f2efe8" />
+    <meta name="description" content="AgentVerse Index：经核验的 AI 工具索引、兼容性档案与技术栈工作台。" />
+    <meta property="og:title" content="AgentVerse Index — AI 工具索引与技术栈工作台" />
+    <meta property="og:description" content="发现、核验、比较并组合 Skills、提示词、MCP、CLI、智能体与工作流。" />
     <meta property="og:type" content="website" />
-    <title>AgentVerse Hub — AI 能力发现站</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%23171917%22/><circle cx=%2232%22 cy=%2232%22 r=%2214%22 fill=%22none%22 stroke=%22%23d8ff66%22 stroke-width=%226%22/><circle cx=%2247%22 cy=%2221%22 r=%226%22 fill=%22%237f6cff%22/></svg>" />
+    <title>AgentVerse Index — AI 工具索引与技术栈工作台</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 fill=%22%231c1c1a%22/><path d=%22M13 47 30 13h6l15 34h-9l-3-8H25l-4 8zm15-15h8l-4-10z%22 fill=%22%23f2efe8%22/></svg>" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要内容</a>
 
-    <div class="noise" aria-hidden="true"></div>
-    <div class="announcement">
-      <div class="shell announcement-inner">
-        <span><i></i> 能力雷达持续更新</span>
-        <p>本期专题：从一个提示词到一条可运行的工作流</p>
-        <a href="#workflow">查看组合方案 <span aria-hidden="true">↗</span></a>
-      </div>
-    </div>
-
-    <header class="site-header" id="top">
-      <nav class="shell nav" aria-label="主导航">
-        <a class="brand" href="#top" aria-label="AgentVerse Hub 首页">
-          <svg viewBox="0 0 44 44" aria-hidden="true">
-            <circle cx="22" cy="22" r="13"></circle>
-            <circle class="brand-dot" cx="34" cy="13" r="5"></circle>
-          </svg>
-          <span>AgentVerse</span><b>Hub</b>
+    <header class="site-header">
+      <div class="shell nav-wrap">
+        <a class="wordmark" href="#top" aria-label="AgentVerse Index 首页">
+          <span class="wordmark-mark">A/V</span>
+          <span>AgentVerse <b>Index</b></span>
         </a>
-
-        <div class="nav-links" id="nav-links">
-          <a href="#library">资源库</a>
-          <a href="#radar">动态雷达</a>
-          <a href="#workflow">工作流</a>
-          <a href="#ranking">趋势榜</a>
+        <nav class="main-nav" id="main-nav" aria-label="主导航">
+          <a href="#library">发现</a>
+          <a href="#workbench">栈工作台</a>
+          <a href="#compatibility">适配矩阵</a>
+          <a href="#trust">可信度</a>
+          <a href="#collections">方案集</a>
+        </nav>
+        <div class="nav-tools">
+          <button class="nav-search" id="open-search" type="button" aria-label="打开全站搜索">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 4.5 4.5"></path></svg>
+            搜索 <kbd>⌘ K</kbd>
+          </button>
+          <button class="saved-button" id="open-saved" type="button">已收藏 <b id="saved-count">0</b></button>
+          <button class="menu-button" id="menu-button" type="button" aria-label="打开菜单" aria-expanded="false"><span></span><span></span></button>
         </div>
-
-        <div class="nav-actions">
-          <button class="key-search" id="open-search" type="button" aria-label="打开搜索">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
-            <span>搜索</span><kbd>⌘ K</kbd>
-          </button>
-          <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深色模式">
-            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
-          </button>
-          <a class="nav-cta" href="#submit">提交资源 <span aria-hidden="true">↗</span></a>
-          <button class="menu-button" id="menu-button" type="button" aria-label="打开菜单" aria-expanded="false">
-            <span></span><span></span>
-          </button>
-        </div>
-      </nav>
+      </div>
     </header>
 
     <main id="main">
-      <section class="hero shell">
-        <div class="hero-copy reveal">
-          <div class="eyebrow"><span>AI 能力发现站</span><i></i><span>每周精选</span></div>
-          <h1>把零散工具，<br />拼成你的 <em>AI 队伍。</em></h1>
-          <p class="hero-lead">
-            从一个好提示词，到一支能真正完成任务的智能体团队。集中发现热门 Skills、MCP、CLI、Agents 与自动化工作流。
-          </p>
-          <div class="hero-actions">
-            <a class="primary-button" href="#library">开始探索 <span aria-hidden="true">↘</span></a>
-            <a class="text-button" href="#workflow"><span class="play">▶</span> 看一条工作流如何运转</a>
-          </div>
-          <div class="hero-proof" aria-label="站点数据">
-            <div><strong data-count="64">0</strong><span>精选资源</span></div>
-            <div><strong data-count="6">0</strong><span>能力模块</span></div>
-            <div><strong data-count="18">0</strong><span>行业场景</span></div>
-            <div><strong data-count="100">0</strong><span>% 公开可访问</span></div>
-          </div>
-        </div>
-
-        <div class="hero-visual reveal delay-1" aria-label="AI 能力雷达示意图">
-          <div class="radar-card">
-            <div class="radar-head">
-              <div><span class="live-dot"></span> TODAY'S SIGNAL</div>
-              <button class="radar-more" type="button" aria-label="更多雷达信息">•••</button>
-            </div>
-            <div class="orbit-stage">
-              <div class="orbit orbit-a"></div>
-              <div class="orbit orbit-b"></div>
-              <div class="orbit orbit-c"></div>
-              <div class="core-node">
-                <span>AGENT</span>
-                <strong>STACK</strong>
-                <small>READY</small>
-              </div>
-              <div class="orbit-node node-skill"><b>SK</b><span>Skills</span></div>
-              <div class="orbit-node node-prompt"><b>PR</b><span>提示词</span></div>
-              <div class="orbit-node node-mcp"><b>MC</b><span>MCP</span></div>
-              <div class="orbit-node node-cli"><b>CL</b><span>CLI</span></div>
-              <div class="orbit-node node-agent"><b>AG</b><span>智能体</span></div>
-              <div class="orbit-node node-flow"><b>WF</b><span>工作流</span></div>
-              <svg class="signal-line" viewBox="0 0 520 290" preserveAspectRatio="none" aria-hidden="true">
-                <path d="M32,210 C95,205 116,60 188,106 S291,268 356,184 S422,46 490,86"></path>
-              </svg>
-            </div>
-            <div class="radar-foot">
-              <div><span>本周信号</span><strong>多智能体协作</strong></div>
-              <div class="signal-score">+28<i>%</i></div>
-            </div>
-          </div>
-          <div class="float-tag float-one"><span>↗</span> 浏览器自动化</div>
-          <div class="float-tag float-two"><span>✦</span> Context 工程</div>
-        </div>
-      </section>
-
-      <section class="pulse" aria-label="热门主题滚动播报">
-        <div class="pulse-label"><span></span> NOW TRENDING</div>
-        <div class="pulse-window">
-          <div class="pulse-track">
-            <span>Browser Agents <b>↗ 36%</b></span>
-            <span>Agent Skills <b>↗ 31%</b></span>
-            <span>Context Engineering <b>↗ 28%</b></span>
-            <span>Vibe Coding <b>↗ 24%</b></span>
-            <span>Local-first AI <b>↗ 19%</b></span>
-            <span>Multi-agent <b>↗ 17%</b></span>
-            <span aria-hidden="true">Browser Agents <b>↗ 36%</b></span>
-            <span aria-hidden="true">Agent Skills <b>↗ 31%</b></span>
-            <span aria-hidden="true">Context Engineering <b>↗ 28%</b></span>
-            <span aria-hidden="true">Vibe Coding <b>↗ 24%</b></span>
-            <span aria-hidden="true">Local-first AI <b>↗ 19%</b></span>
-            <span aria-hidden="true">Multi-agent <b>↗ 17%</b></span>
-          </div>
-        </div>
-      </section>
-
-      <section class="library section shell" id="library">
-        <div class="section-heading reveal">
-          <div>
-            <span class="kicker">01 / 能力资源库</span>
-            <h2>六种能力，<br />一个入口。</h2>
-          </div>
-          <p>不是把链接堆在一起，而是按任务方式重新组织。选一个类型，或直接描述你想完成的事。</p>
-        </div>
-
-        <div class="type-tabs reveal" role="tablist" aria-label="资源类型">
-          <button class="type-tab active" role="tab" aria-selected="true" data-type="all"><span>∞</span><b>全部</b><small>ALL</small></button>
-          <button class="type-tab" role="tab" aria-selected="false" data-type="skill"><span>◈</span><b>Skills</b><small>能力包</small></button>
-          <button class="type-tab" role="tab" aria-selected="false" data-type="prompt"><span>“</span><b>提示词</b><small>Prompt</small></button>
-          <button class="type-tab" role="tab" aria-selected="false" data-type="mcp"><span>⌁</span><b>MCP</b><small>连接器</small></button>
-          <button class="type-tab" role="tab" aria-selected="false" data-type="cli"><span>&gt;_</span><b>CLI</b><small>命令行</small></button>
-          <button class="type-tab" role="tab" aria-selected="false" data-type="agent"><span>◎</span><b>智能体</b><small>Agents</small></button>
-          <button class="type-tab" role="tab" aria-selected="false" data-type="workflow"><span>⌘</span><b>工作流</b><small>Workflow</small></button>
-        </div>
-
-        <div class="filter-bar reveal">
-          <label class="library-search">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
-            <input id="library-search" type="search" placeholder="搜索名称、场景或标签…" autocomplete="off" />
+      <section class="hero shell" id="top">
+        <div class="hero-intro">
+          <p class="issue-line"><span>VOL. 02</span><span>工具索引与组合实验室</span><span>2026 / 09</span></p>
+          <h1>不推荐最响的。<br />只整理真正<br class="mobile-break" />能接进工作流的。</h1>
+          <p class="hero-deck">这里不是又一个 AI 工具大全。每个条目都带着来源、接入方式、适用环境和可解释的可信度；你可以比较它们，再把它们拼成一套能落地的技术栈。</p>
+          <label class="hero-search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 4.5 4.5"></path></svg>
+            <input id="hero-search" type="search" placeholder="搜工具，或描述任务：例如「本地运行的研发智能体」" autocomplete="off" />
+            <button type="button" id="hero-search-submit">检索</button>
           </label>
-          <div class="filter-group" aria-label="行业筛选">
-            <span>行业</span>
-            <select id="industry-filter" aria-label="按行业筛选">
-              <option value="all">全部行业</option>
-              <option value="通用">通用</option>
-              <option value="软件研发">软件研发</option>
-              <option value="内容创作">内容创作</option>
-              <option value="营销电商">营销电商</option>
-              <option value="教育研究">教育研究</option>
-              <option value="数据分析">数据分析</option>
-              <option value="办公效率">办公效率</option>
-            </select>
-          </div>
-          <div class="filter-group" aria-label="功能筛选">
-            <span>功能</span>
-            <select id="function-filter" aria-label="按功能筛选">
-              <option value="all">全部功能</option>
-              <option value="搜索研究">搜索研究</option>
-              <option value="内容生成">内容生成</option>
-              <option value="编码开发">编码开发</option>
-              <option value="数据连接">数据连接</option>
-              <option value="自动化编排">自动化编排</option>
-              <option value="浏览器操作">浏览器操作</option>
-            </select>
-          </div>
-          <button class="random-button" id="random-pick" type="button"><span>✦</span> 随机发现</button>
-        </div>
-
-        <div class="result-meta">
-          <p><strong id="result-count">0</strong> 个精选结果</p>
-          <div class="view-switch" aria-label="切换视图">
-            <button class="active" data-view="grid" type="button" aria-label="网格视图">▦</button>
-            <button data-view="list" type="button" aria-label="列表视图">☷</button>
+          <div class="quick-queries" aria-label="热门搜索">
+            <span>常用入口</span>
+            <button type="button" data-query="浏览器操作">浏览器操作</button>
+            <button type="button" data-query="本地">本地优先</button>
+            <button type="button" data-query="MCP">MCP</button>
+            <button type="button" data-query="内容生成">内容工作流</button>
           </div>
         </div>
 
-        <div class="resource-grid" id="resource-grid" aria-live="polite"></div>
-        <div class="empty-state" id="empty-state" hidden>
-          <span>⌁</span><h3>暂时没有匹配项</h3><p>换一个关键词，或清空筛选条件再看看。</p>
-          <button id="clear-filters" type="button">清空筛选</button>
+        <aside class="editor-note" aria-label="本周编辑手记">
+          <div class="note-heading">
+            <span>本周编辑手记</span>
+            <time datetime="2026-09-09">09 SEP 2026</time>
+          </div>
+          <h2>工具多了以后，<br />选择本身就是工作。</h2>
+          <p>所以这一版不再以“更多”为目标，而是回答三个问题：它靠不靠谱、能不能和现有环境共存、拼起来以后是否真的省事。</p>
+          <ol id="editor-picks"></ol>
+          <a href="#trust">查看我们的核验方法 <span>→</span></a>
+        </aside>
+
+        <div class="hero-ledger" aria-label="索引统计">
+          <div><b id="resource-total">58</b><span>收录条目</span></div>
+          <div><b id="type-total">10</b><span>能力门类</span></div>
+          <div><b id="verified-total">—</b><span>链接可访问</span></div>
+          <div><b>4</b><span>决策工具</span></div>
+          <div class="ledger-status"><i></i><span id="health-label">正在读取核验记录</span></div>
         </div>
-        <div class="load-wrap"><button class="load-more" id="load-more" type="button">加载更多 <span>↓</span></button></div>
       </section>
 
-      <section class="radar section" id="radar">
+      <section class="moving-index" aria-label="动态分类索引">
+        <div class="moving-label">动态索引</div>
+        <div class="moving-window"><div class="moving-track" id="moving-track"></div></div>
+      </section>
+
+      <section class="landscape section shell" id="landscape">
+        <header class="section-header">
+          <div><span class="section-no">01</span><h2>能力版图</h2></div>
+          <p>从模型接口到最终工作流，十个门类覆盖一套 Agent 系统的主要层级。数字来自当前索引，不用虚构下载量撑场面。</p>
+        </header>
+        <div class="category-ledger" id="category-ledger"></div>
+      </section>
+
+      <section class="library section" id="library">
         <div class="shell">
-          <div class="section-heading light reveal">
-            <div>
-              <span class="kicker">02 / 动态能力雷达</span>
-              <h2>换个坐标，<br />发现同一种可能。</h2>
+          <header class="section-header">
+            <div><span class="section-no">02</span><h2>资源索引</h2></div>
+            <p>按任务、部署方式与开放程度筛选。站内热度只用于编辑排序，可信度则由另一套公开规则计算。</p>
+          </header>
+
+          <div class="library-layout">
+            <aside class="filter-panel">
+              <div class="filter-panel-head"><b>筛选条件</b><button id="reset-filters" type="button">重置</button></div>
+              <fieldset>
+                <legend>资源门类</legend>
+                <div class="filter-options" id="type-filters"></div>
+              </fieldset>
+              <fieldset>
+                <legend>使用行业</legend>
+                <label><input type="radio" name="industry" value="all" checked />全部行业</label>
+                <label><input type="radio" name="industry" value="软件研发" />软件研发</label>
+                <label><input type="radio" name="industry" value="内容创作" />内容创作</label>
+                <label><input type="radio" name="industry" value="营销电商" />营销电商</label>
+                <label><input type="radio" name="industry" value="教育研究" />教育研究</label>
+                <label><input type="radio" name="industry" value="数据分析" />数据分析</label>
+                <label><input type="radio" name="industry" value="办公效率" />办公效率</label>
+              </fieldset>
+              <fieldset>
+                <legend>决策条件</legend>
+                <label><input type="checkbox" name="requirement" value="open" />开放源码</label>
+                <label><input type="checkbox" name="requirement" value="local" />支持本地使用</label>
+                <label><input type="checkbox" name="requirement" value="install" />提供安装命令</label>
+                <label><input type="checkbox" name="requirement" value="verified" />链接已核验</label>
+              </fieldset>
+            </aside>
+
+            <div class="library-main">
+              <div class="library-toolbar">
+                <label class="inline-search">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 4.5 4.5"></path></svg>
+                  <input id="library-search" type="search" placeholder="在索引中搜索…" autocomplete="off" />
+                </label>
+                <select id="sort-select" aria-label="资源排序">
+                  <option value="editor">编辑排序</option>
+                  <option value="trust">可信度优先</option>
+                  <option value="heat">站内热度优先</option>
+                  <option value="name">名称排序</option>
+                </select>
+                <p><b id="result-count">0</b> 条结果</p>
+              </div>
+              <div class="resource-table-head" aria-hidden="true"><span>条目 / 用途</span><span>环境</span><span>可信度</span><span>操作</span></div>
+              <div class="resource-list" id="resource-list" aria-live="polite"></div>
+              <div class="empty-state" id="empty-state" hidden><b>没有匹配的条目</b><p>尝试减少筛选条件，或者换一个更短的关键词。</p></div>
+              <button class="load-more" id="load-more" type="button">继续显示 <span>↓</span></button>
             </div>
-            <p>按行业、任务功能与资源类型三种坐标动态滚动。悬停即可暂停，点击标签会带你回到对应筛选结果。</p>
           </div>
         </div>
-        <div class="marquee-stack" id="marquee-stack"></div>
       </section>
 
-      <section class="workflow section shell" id="workflow">
-        <div class="section-heading reveal">
-          <div>
-            <span class="kicker">03 / 工作流组合</span>
-            <h2>好工具很多。<br />好组合更少。</h2>
-          </div>
-          <p>选一个目标，看清每一步由谁完成、上下文如何传递，以及整个任务怎样从想法流向交付。</p>
-        </div>
-
-        <div class="flow-layout reveal">
-          <div class="flow-menu" role="tablist" aria-label="工作流方案">
-            <button class="flow-tab active" data-flow="content" role="tab" aria-selected="true">
-              <span>01</span><div><b>内容增长引擎</b><small>趋势 → 选题 → 成稿 → 分发</small></div><i>↗</i>
-            </button>
-            <button class="flow-tab" data-flow="dev" role="tab" aria-selected="false">
-              <span>02</span><div><b>研发提效回路</b><small>需求 → 编码 → 测试 → 复盘</small></div><i>↗</i>
-            </button>
-            <button class="flow-tab" data-flow="research" role="tab" aria-selected="false">
-              <span>03</span><div><b>行业洞察雷达</b><small>采集 → 清洗 → 研判 → 简报</small></div><i>↗</i>
-            </button>
-          </div>
-          <div class="flow-canvas">
-            <div class="flow-topline">
-              <div><span class="live-dot"></span><b id="flow-title">内容增长引擎</b></div>
-              <span id="flow-time">预计节省 6h / 周</span>
-            </div>
-            <div class="flow-steps" id="flow-steps"></div>
-            <div class="flow-summary">
-              <p id="flow-summary">把分散的信息源变成可持续运转的内容流水线。</p>
-              <button type="button" id="copy-flow">复制工作流说明 <span>↗</span></button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="ranking section" id="ranking">
+      <section class="workbench section" id="workbench">
         <div class="shell">
-          <div class="section-heading light reveal">
-            <div>
-              <span class="kicker">04 / 趋势榜</span>
-              <h2>本周，大家<br />在用什么？</h2>
-            </div>
-            <div class="ranking-tabs" role="tablist" aria-label="榜单类型">
-              <button class="active" data-rank="rising" role="tab" aria-selected="true">热度飙升</button>
-              <button data-rank="stars" role="tab" aria-selected="false">社区高赞</button>
-              <button data-rank="starter" role="tab" aria-selected="false">入门友好</button>
+          <header class="section-header inverse">
+            <div><span class="section-no">03</span><h2>技术栈工作台</h2></div>
+            <p>不是随机推荐。工作台会根据目标、技术环境和约束对索引做本地评分，再组合出一套层级完整的方案。</p>
+          </header>
+
+          <div class="builder-grid">
+            <form class="builder-brief" id="stack-form">
+              <div class="brief-head"><b>填写任务简报</b><span>所有计算在浏览器本地完成</span></div>
+              <label>01 / 你要完成什么？
+                <select id="stack-goal">
+                  <option value="dev">交付一个软件功能</option>
+                  <option value="research">持续做行业研究</option>
+                  <option value="content">搭建内容生产线</option>
+                  <option value="knowledge">建设团队知识库</option>
+                  <option value="automation">自动化重复办公</option>
+                </select>
+              </label>
+              <label>02 / 主要运行环境
+                <select id="stack-platform">
+                  <option value="terminal">终端 / 本地仓库</option>
+                  <option value="browser">浏览器 / SaaS</option>
+                  <option value="python">Python 服务</option>
+                  <option value="selfhost">自托管 / Docker</option>
+                </select>
+              </label>
+              <fieldset>
+                <legend>03 / 必须满足的约束</legend>
+                <label><input type="checkbox" value="open" checked />开放源码</label>
+                <label><input type="checkbox" value="local" />本地优先</label>
+                <label><input type="checkbox" value="simple" />上手简单</label>
+                <label><input type="checkbox" value="verified" checked />已完成链接核验</label>
+              </fieldset>
+              <button class="build-button" type="submit">生成技术栈 <span>→</span></button>
+            </form>
+
+            <div class="stack-output" id="stack-output">
+              <div class="stack-empty">
+                <span>STACK / 00</span>
+                <h3>一套栈，应该说明<br />为什么这样组合。</h3>
+                <p>提交左侧简报后，这里会给出四层方案、匹配分、组合理由和潜在冲突；每一项都可以替换。</p>
+              </div>
             </div>
           </div>
-          <div class="ranking-layout reveal">
-            <div class="ranking-list" id="ranking-list"></div>
-            <article class="editor-pick">
-              <div class="pick-top"><span>EDITOR'S PICK</span><span>2026 · 09</span></div>
-              <div class="pick-symbol">⌁</div>
-              <p class="pick-type">MCP / 浏览器操作</p>
-              <h3>Playwright MCP</h3>
-              <p>让智能体获得结构化浏览器能力。适合网页测试、表单流程、数据采集和可复现的 UI 操作。</p>
-              <div class="pick-tags"><span>研发</span><span>自动化</span><span>Browser</span></div>
-              <a href="https://github.com/microsoft/playwright-mcp" target="_blank" rel="noopener noreferrer">查看项目 <span>↗</span></a>
+          <div class="saved-stacks" id="saved-stacks" hidden>
+            <div class="saved-head"><b>已保存的技术栈</b><span>保存在当前浏览器</span></div>
+            <div id="saved-stack-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="compatibility section shell" id="compatibility">
+        <header class="section-header">
+          <div><span class="section-no">04</span><h2>适配矩阵</h2></div>
+          <p>先看能力门类与运行环境的天然适配度，再到对比台查看具体条目。矩阵表达的是适用性，不是假装精确的性能跑分。</p>
+        </header>
+        <div class="matrix-wrap">
+          <table class="compat-matrix" id="compat-matrix">
+            <thead><tr><th>能力门类</th><th>终端</th><th>浏览器</th><th>Python</th><th>自托管</th><th>低代码</th><th>主要角色</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="matrix-legend"><span><i class="fit-high"></i>天然适配</span><span><i class="fit-mid"></i>需要配置</span><span><i class="fit-low"></i>不是主要场景</span></div>
+      </section>
+
+      <section class="trust section" id="trust">
+        <div class="shell">
+          <header class="section-header">
+            <div><span class="section-no">05</span><h2>可信度不是一个徽章</h2></div>
+            <p>评分只由可验证条件组成，并公开拆分。它不等于“绝对安全”，但能让选择过程有据可查。</p>
+          </header>
+          <div class="trust-grid">
+            <article class="score-card">
+              <div class="score-demo"><b>85</b><span>/ 100</span></div>
+              <h3>可解释评分</h3>
+              <ul><li><span>源码可审查</span><b>25</b></li><li><span>官方来源可访问</span><b>20</b></li><li><span>提供明确接入方式</span><b>15</b></li><li><span>支持本地或自托管</span><b>20</b></li><li><span>资料完整度</span><b>20</b></li></ul>
+            </article>
+            <article class="health-card">
+              <p>LINK HEALTH / 自动验链</p>
+              <h3 id="health-summary">读取最近一次结果…</h3>
+              <div class="health-bar"><i id="health-bar"></i></div>
+              <dl><div><dt>最近核验</dt><dd id="last-checked">—</dd></div><div><dt>可访问</dt><dd id="healthy-links">—</dd></div><div><dt>异常</dt><dd id="failed-links">—</dd></div></dl>
+              <p class="health-note">GitHub Actions 每周重新访问所有官方入口，并更新这份公开记录。页面不把旧结果伪装成实时状态。</p>
+            </article>
+            <article class="principles-card">
+              <p>EDITORIAL RULES / 编辑原则</p>
+              <h3>不付费排名，<br />不把热度当安全。</h3>
+              <ol><li><b>01</b><span>官方地址优先，避免下载镜像与二手教程。</span></li><li><b>02</b><span>来源、部署与权限信息分开展示。</span></li><li><b>03</b><span>不完整的数据明确写“不确定”。</span></li></ol>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="submit section shell" id="submit">
-        <div class="submit-card reveal">
-          <div class="submit-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
-          <span class="kicker">共同维护这张能力地图</span>
-          <h2>你发现了值得<br />被更多人看见的工具？</h2>
-          <p>欢迎提交开源项目、实用提示词与可复用工作流。我们会检查可访问性、信息完整度与基础安全说明。</p>
-          <a href="https://github.com/FuzzyLogic112/agentverse-hub/issues/new" target="_blank" rel="noopener noreferrer">提交一个资源 <span>↗</span></a>
+      <section class="collections section shell" id="collections">
+        <header class="section-header">
+          <div><span class="section-no">06</span><h2>可复用方案集</h2></div>
+          <p>单个工具解决一个点，方案集描述完整任务。从模板进入工作台后，仍可替换其中任何组件。</p>
+        </header>
+        <div class="collection-grid" id="collection-grid"></div>
+      </section>
+
+      <section class="change-log section shell">
+        <header class="section-header compact">
+          <div><span class="section-no">07</span><h2>索引变更</h2></div>
+          <a href="https://github.com/FuzzyLogic112/agentverse-hub/commits/main/" target="_blank" rel="noopener noreferrer">查看完整记录 →</a>
+        </header>
+        <div class="change-list">
+          <article><time>2026.09.09</time><span>产品</span><p>新增技术栈工作台、资源对比、兼容性矩阵与自动验链。</p></article>
+          <article><time>2026.09.09</time><span>目录</span><p>加入模型 API、知识检索、评测观测与运行基础设施四个门类。</p></article>
+          <article><time>2026.09.08</time><span>上线</span><p>首批 Skills、提示词、MCP、CLI、智能体与工作流完成收录。</p></article>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="shell footer-main">
-        <div>
-          <a class="brand footer-brand" href="#top">
-            <svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="13"></circle><circle class="brand-dot" cx="34" cy="13" r="5"></circle></svg>
-            <span>AgentVerse</span><b>Hub</b>
-          </a>
-          <p>为人和智能体整理真正可用的能力积木。</p>
-        </div>
-        <div class="footer-links">
-          <div><b>探索</b><a href="#library">资源库</a><a href="#radar">能力雷达</a><a href="#ranking">趋势榜</a></div>
-          <div><b>模块</b><a href="#library">Skills</a><a href="#library">MCP</a><a href="#library">Workflows</a></div>
-          <div><b>关于</b><a href="https://github.com/FuzzyLogic112/agentverse-hub" target="_blank" rel="noopener noreferrer">GitHub</a><a href="#submit">提交资源</a><a href="https://github.com/FuzzyLogic112/agentverse-hub/issues" target="_blank" rel="noopener noreferrer">问题反馈</a></div>
-        </div>
+      <div class="shell footer-top">
+        <div><a class="wordmark footer-mark" href="#top"><span class="wordmark-mark">A/V</span><span>AgentVerse <b>Index</b></span></a><p>为人和智能体整理可核验、可比较、可组合的能力资源。</p></div>
+        <div class="footer-nav"><div><b>产品</b><a href="#library">资源索引</a><a href="#workbench">技术栈工作台</a><a href="#compatibility">适配矩阵</a></div><div><b>透明度</b><a href="#trust">评分方法</a><a href="data/health.json" target="_blank">验链数据</a><a href="https://github.com/FuzzyLogic112/agentverse-hub" target="_blank" rel="noopener noreferrer">源代码</a></div><div><b>参与</b><a href="https://github.com/FuzzyLogic112/agentverse-hub/issues/new" target="_blank" rel="noopener noreferrer">提交资源</a><a href="https://github.com/FuzzyLogic112/agentverse-hub/issues" target="_blank" rel="noopener noreferrer">纠正信息</a></div></div>
       </div>
-      <div class="shell footer-bottom"><span>© 2026 AgentVerse Hub</span><span>Curated with judgment, built for action.</span><a href="#top">回到顶部 ↑</a></div>
+      <div class="shell footer-bottom"><span>© 2026 AgentVerse Index</span><span>独立编辑 · 不接受付费排名</span><a href="#top">返回页首 ↑</a></div>
     </footer>
 
+    <div class="compare-dock" id="compare-dock" hidden>
+      <div><span>对比台</span><div id="compare-items"></div></div>
+      <p>最多选择 3 项 <b id="compare-count">0</b>/3</p>
+      <button id="clear-compare" type="button">清空</button>
+      <button class="compare-open" id="open-compare" type="button">开始对比 →</button>
+    </div>
+
     <dialog class="search-dialog" id="search-dialog">
-      <div class="dialog-search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
-        <input id="command-search" type="search" placeholder="搜索 Skills、MCP、CLI、智能体…" autocomplete="off" />
-        <kbd>ESC</kbd>
-      </div>
+      <div class="dialog-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 4.5 4.5"></path></svg><input id="command-search" type="search" placeholder="搜索全部索引…" autocomplete="off" /><kbd>ESC</kbd></div>
       <div class="command-results" id="command-results"></div>
-      <div class="dialog-hint"><span>↑↓ 选择</span><span>↵ 打开</span><span>试试“浏览器”“写作”“研发”</span></div>
+      <div class="dialog-foot">↑↓ 选择　↵ 查看详情　输入行业、能力或工具名称</div>
     </dialog>
 
-    <dialog class="resource-dialog" id="resource-dialog">
-      <button class="dialog-close" id="resource-close" type="button" aria-label="关闭">×</button>
-      <div id="resource-detail"></div>
+    <dialog class="detail-dialog" id="detail-dialog">
+      <button class="dialog-close" data-close-dialog="detail-dialog" type="button" aria-label="关闭">关闭 ×</button>
+      <div id="detail-content"></div>
     </dialog>
 
-    <div class="toast" id="toast" role="status" aria-live="polite">已复制到剪贴板</div>
+    <dialog class="compare-dialog" id="compare-dialog">
+      <div class="dialog-title"><div><span>DECISION DESK / 资源对比</span><h2>把差异放在同一张桌上。</h2></div><button data-close-dialog="compare-dialog" type="button">关闭 ×</button></div>
+      <div class="compare-table-wrap" id="compare-table-wrap"></div>
+    </dialog>
+
+    <dialog class="saved-dialog" id="saved-dialog">
+      <div class="dialog-title"><div><span>LOCAL COLLECTION / 本地收藏</span><h2>你留在这台浏览器里的条目。</h2></div><button data-close-dialog="saved-dialog" type="button">关闭 ×</button></div>
+      <div id="saved-dialog-content"></div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="app.js" defer></script>
+    <script src="v2.js" defer></script>
   </body>
 </html>

@@ -689,4 +689,4 @@ function init() {
   initCounters();
 }
 
-document.addEventListener("DOMContentLoaded", init);
+if (document.querySelector("#resource-grid")) document.addEventListener("DOMContentLoaded", init);

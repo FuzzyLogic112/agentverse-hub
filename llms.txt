@@ -1,0 +1,30 @@
+# AgentVerse Hub
+
+> 面向中文开发者的 AI 工具、Skills、提示词、MCP、CLI、智能体、工作流、API、RAG、评测与推理基础设施索引。
+
+## Canonical URL
+
+- https://fuzzylogic112.github.io/agentverse-hub/
+
+## What this site provides
+
+- 58 个经过结构化整理的官方入口，覆盖 10 类能力。
+- 可按类型、行业与决策要求筛选的资源索引。
+- 在浏览器本地运行的技术栈工作台：按目标、平台和约束生成四层方案。
+- 最多三个资源的同维度对比。
+- 公开的 100 分信任评分和逐项解释。
+- 由 GitHub Actions 每周生成的链接健康记录。
+
+## Machine-readable resources
+
+- Link health: https://fuzzylogic112.github.io/agentverse-hub/data/health.json
+- Scoring methodology: https://fuzzylogic112.github.io/agentverse-hub/data/methodology.json
+- Source repository: https://github.com/FuzzyLogic112/agentverse-hub
+
+## Taxonomy
+
+Skills, Prompts, MCP, CLI, Agents, Workflows, API, RAG, Evaluation, Infrastructure.
+
+## Contribution
+
+Submit a resource or correction through GitHub Issues. Inclusion and ranking cannot be purchased.

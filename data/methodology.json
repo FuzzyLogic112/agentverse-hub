@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "updatedAt": "2026-09-09",
+  "score": {
+    "total": 100,
+    "factors": [
+      { "id": "source", "label": "来源透明", "max": 25, "rule": "开源项目 25 分；非开源官方入口 10 分" },
+      { "id": "link", "label": "链接核验", "max": 20, "rule": "最近一次自动验链可访问得 20 分" },
+      { "id": "install", "label": "可执行入口", "max": 15, "rule": "提供可复制的安装或启动命令得 15 分" },
+      { "id": "ownership", "label": "数据掌控", "max": 20, "rule": "支持本地或自托管得 20 分；云服务得 5 分" },
+      { "id": "completeness", "label": "资料完整", "max": 20, "rule": "具备标签、场景、摘要与适配信息得 20 分，否则 10 分" }
+    ]
+  },
+  "linkHealth": {
+    "schedule": "Weekly, Monday 03:17 UTC",
+    "rule": "HEAD first, GET fallback; HTTP 2xx and 3xx are reachable",
+    "data": "health.json"
+  },
+  "principles": [
+    "排名不接受付费购买",
+    "评分规则公开且可复算",
+    "失效入口保留异常标记，等待人工复核",
+    "收藏与技术栈只保存在使用者浏览器"
+  ]
+}
