@@ -578,6 +578,7 @@
 
   function initV2() {
     one("#resource-total").textContent = resources.length;
+    one("#hero-headline-total").textContent = resources.length;
     one("#type-total").textContent = typeOrder.length;
     renderEditorPicks();
     renderMovingIndex();

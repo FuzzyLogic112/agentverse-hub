@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="AgentVerse Index：经核验的 AI 工具索引、兼容性档案与技术栈工作台。" />
+    <meta name="description" content="AgentVerse Index：200+ 经整理的 AI 工具、能力索引、兼容性档案与技术栈工作台。" />
     <meta property="og:title" content="AgentVerse Index — AI 工具索引与技术栈工作台" />
     <meta property="og:description" content="发现、核验、比较并组合 Skills、提示词、MCP、CLI、智能体与工作流。" />
     <meta property="og:type" content="website" />
@@ -42,8 +42,8 @@
     <main id="main">
       <section class="hero shell" id="top">
         <div class="hero-intro">
-          <p class="issue-line"><span>AgentVerse 2.1</span><span>AI 能力基础设施</span><span>全新界面</span></p>
-          <h1>把 58 种 AI 能力，<br />组合成一套<br class="mobile-break" />好用的工具链。</h1>
+          <p class="issue-line"><span>AgentVerse 3.0</span><span>AI 能力基础设施</span><span>200+ 精选条目</span></p>
+          <h1>把 <span id="hero-headline-total">200+</span> 种 AI 能力，<br />组合成一套<br class="mobile-break" />好用的工具链。</h1>
           <p class="hero-deck">从 Skills、MCP 到智能体与评测系统。每个条目都有来源、接入方式、适用环境和公开可信度，让选择更简单，让组合真正可落地。</p>
           <label class="hero-search">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 4.5 4.5"></path></svg>
@@ -59,19 +59,29 @@
           </div>
         </div>
 
+        <figure class="hero-visual" aria-labelledby="hero-visual-caption">
+          <img src="assets/agentverse-ecosystem-hero.png" alt="由玻璃、金属和陶瓷模块组成的 AI 工具生态装置" width="1916" height="853" fetchpriority="high" />
+          <figcaption id="hero-visual-caption">
+            <span><i></i> AgentVerse Ecosystem / 2026</span>
+            <b>十类能力，不止一张清单。</b>
+            <p>检索、核验、比较，再把工具装进一套能落地的工作流。</p>
+          </figcaption>
+          <div class="hero-visual-spec" aria-hidden="true"><span>10</span><small>能力门类</small><span>200+</span><small>官方入口</small></div>
+        </figure>
+
         <aside class="editor-note" aria-label="本周编辑手记">
           <div class="note-heading">
             <span>本周精选组合</span>
             <time datetime="2026-09-09">持续更新</time>
           </div>
           <h2>更少试错，<br />更快接入。</h2>
-          <p>围绕可靠、本地与可组合三个标准，从 58 个条目中挑出当前更适合落地的能力组件。</p>
+          <p>围绕可靠、本地与可组合三个标准，从 200+ 个条目中挑出当前更适合落地的能力组件。</p>
           <ol id="editor-picks"></ol>
           <a href="#trust">了解可信度体系 <span>→</span></a>
         </aside>
 
         <div class="hero-ledger" aria-label="索引统计">
-          <div><b id="resource-total">58</b><span>收录条目</span></div>
+          <div><b id="resource-total">200+</b><span>收录条目</span></div>
           <div><b id="type-total">10</b><span>能力门类</span></div>
           <div><b id="verified-total">—</b><span>链接可访问</span></div>
           <div><b>4</b><span>决策工具</span></div>
@@ -301,6 +311,7 @@
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="app.js" defer></script>
+    <script src="catalog.js" defer></script>
     <script src="v2.js" defer></script>
   </body>
 </html>

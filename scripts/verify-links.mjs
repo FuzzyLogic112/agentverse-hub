@@ -4,14 +4,18 @@ import { spawn } from "node:child_process";
 import path from "node:path";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const sources = await Promise.all([
+const [appSource, catalogSource, v2Source] = await Promise.all([
   readFile(path.join(root, "app.js"), "utf8"),
+  readFile(path.join(root, "catalog.js"), "utf8"),
   readFile(path.join(root, "v2.js"), "utf8"),
 ]);
 
-const links = [...new Set(sources.flatMap((source) =>
+const objectLinks = [appSource, v2Source].flatMap((source) =>
   [...source.matchAll(/href:\s*["'](https?:\/\/[^"']+)["']/g)].map((match) => match[1])
-))].sort();
+);
+const catalogLinks = [...catalogSource.matchAll(/^\s+\["[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"(https?:\/\/[^"]+)"/gm)]
+  .map((match) => match[1]);
+const links = [...new Set([...objectLinks, ...catalogLinks])].sort();
 
 async function request(url, method) {
   const outputTarget = process.platform === "win32" ? "NUL" : "/dev/null";
