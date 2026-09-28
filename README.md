@@ -4,6 +4,8 @@ AgentVerse Hub 是一份面向中文开发者的 AI 能力索引，也是一套�
 
 线上地址：https://fuzzylogic112.github.io/agentverse-hub/
 
+![AgentVerse Hub 生态主视觉](assets/agentverse-ecosystem-hero.png)
+
 ## 核心能力
 
 - 200+ 个官方资源入口，覆盖 Skills、提示词、MCP、CLI、智能体、工作流、API、RAG、评测和推理基础设施
