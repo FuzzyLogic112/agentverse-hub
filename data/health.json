@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T11:34:29.497Z",
+  "generatedAt": "2026-11-23T13:00:12.132Z",
   "methodology": "Each official entry is requested with HEAD, then GET on failure. HTTP 2xx/3xx is considered reachable.",
   "summary": {
     "total": 215,
@@ -10,1292 +10,1292 @@
     "https://agentskills.io/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 310,
-      "checkedAt": "2026-11-16T11:34:11.074Z"
+      "latencyMs": 393,
+      "checkedAt": "2026-11-23T12:59:54.849Z"
     },
     "https://ai.google.dev/gemini-api/docs": {
       "ok": true,
       "status": 200,
-      "latencyMs": 635,
-      "checkedAt": "2026-11-16T11:34:11.401Z"
+      "latencyMs": 572,
+      "checkedAt": "2026-11-23T12:59:55.032Z"
     },
     "https://api-docs.deepseek.com/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 521,
-      "checkedAt": "2026-11-16T11:34:11.288Z"
+      "latencyMs": 392,
+      "checkedAt": "2026-11-23T12:59:54.852Z"
     },
     "https://console.groq.com/docs/overview": {
       "ok": true,
       "status": 200,
-      "latencyMs": 320,
-      "checkedAt": "2026-11-16T11:34:11.089Z"
+      "latencyMs": 112,
+      "checkedAt": "2026-11-23T12:59:54.577Z"
     },
     "https://docs.anthropic.com/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 378,
-      "checkedAt": "2026-11-16T11:34:11.150Z"
+      "latencyMs": 448,
+      "checkedAt": "2026-11-23T12:59:54.918Z"
     },
     "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview": {
       "ok": true,
       "status": 200,
-      "latencyMs": 198,
-      "checkedAt": "2026-11-16T11:34:10.974Z"
+      "latencyMs": 180,
+      "checkedAt": "2026-11-23T12:59:54.650Z"
     },
     "https://docs.bigmodel.cn/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 1037,
-      "checkedAt": "2026-11-16T11:34:11.812Z"
+      "latencyMs": 851,
+      "checkedAt": "2026-11-23T12:59:55.322Z"
     },
     "https://docs.cohere.com/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 561,
-      "checkedAt": "2026-11-16T11:34:11.337Z"
+      "latencyMs": 346,
+      "checkedAt": "2026-11-23T12:59:54.820Z"
     },
     "https://docs.fireworks.ai/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 147,
-      "checkedAt": "2026-11-16T11:34:11.130Z"
+      "latencyMs": 78,
+      "checkedAt": "2026-11-23T12:59:54.665Z"
     },
     "https://docs.mistral.ai/api/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 325,
-      "checkedAt": "2026-11-16T11:34:11.407Z"
+      "latencyMs": 336,
+      "checkedAt": "2026-11-23T12:59:54.994Z"
     },
     "https://docs.together.ai/docs/introduction": {
       "ok": true,
       "status": 200,
-      "latencyMs": 479,
-      "checkedAt": "2026-11-16T11:34:11.576Z"
+      "latencyMs": 363,
+      "checkedAt": "2026-11-23T12:59:55.037Z"
     },
     "https://docs.x.ai/docs/overview": {
       "ok": true,
       "status": 200,
-      "latencyMs": 151,
-      "checkedAt": "2026-11-16T11:34:11.291Z"
+      "latencyMs": 174,
+      "checkedAt": "2026-11-23T12:59:55.003Z"
     },
     "https://github.com/567-labs/instructor": {
       "ok": true,
       "status": 200,
-      "latencyMs": 1096,
-      "checkedAt": "2026-11-16T11:34:12.254Z"
+      "latencyMs": 408,
+      "checkedAt": "2026-11-23T12:59:55.268Z"
     },
     "https://github.com/AgentOps-AI/agentops": {
       "ok": true,
       "status": 200,
-      "latencyMs": 492,
-      "checkedAt": "2026-11-16T11:34:11.793Z"
+      "latencyMs": 496,
+      "checkedAt": "2026-11-23T12:59:55.358Z"
     },
     "https://github.com/Aider-AI/aider": {
       "ok": true,
       "status": 200,
-      "latencyMs": 464,
-      "checkedAt": "2026-11-16T11:34:11.764Z"
+      "latencyMs": 445,
+      "checkedAt": "2026-11-23T12:59:55.373Z"
     },
     "https://github.com/All-Hands-AI/OpenHands": {
       "ok": true,
       "status": 200,
-      "latencyMs": 576,
-      "checkedAt": "2026-11-16T11:34:11.922Z"
+      "latencyMs": 624,
+      "checkedAt": "2026-11-23T12:59:55.627Z"
     },
     "https://github.com/Arize-ai/phoenix": {
       "ok": true,
       "status": 200,
-      "latencyMs": 607,
-      "checkedAt": "2026-11-16T11:34:12.016Z"
+      "latencyMs": 527,
+      "checkedAt": "2026-11-23T12:59:55.540Z"
     },
     "https://github.com/Azure/PyRIT": {
       "ok": true,
       "status": 200,
-      "latencyMs": 433,
-      "checkedAt": "2026-11-16T11:34:11.848Z"
+      "latencyMs": 395,
+      "checkedAt": "2026-11-23T12:59:55.436Z"
     },
     "https://github.com/Azure/azure-mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 488,
-      "checkedAt": "2026-11-16T11:34:12.072Z"
+      "latencyMs": 460,
+      "checkedAt": "2026-11-23T12:59:55.506Z"
     },
     "https://github.com/BerriAI/litellm": {
       "ok": true,
       "status": 200,
-      "latencyMs": 488,
-      "checkedAt": "2026-11-16T11:34:12.261Z"
+      "latencyMs": 536,
+      "checkedAt": "2026-11-23T12:59:55.813Z"
     },
     "https://github.com/BrainBlend-AI/atomic-agents": {
       "ok": true,
       "status": 200,
-      "latencyMs": 600,
-      "checkedAt": "2026-11-16T11:34:12.401Z"
+      "latencyMs": 652,
+      "checkedAt": "2026-11-23T12:59:55.984Z"
     },
     "https://github.com/Cinnamon/kotaemon": {
       "ok": true,
       "status": 200,
-      "latencyMs": 623,
-      "checkedAt": "2026-11-16T11:34:12.443Z"
+      "latencyMs": 489,
+      "checkedAt": "2026-11-23T12:59:55.855Z"
     },
     "https://github.com/Comfy-Org/ComfyUI": {
       "ok": true,
       "status": 200,
-      "latencyMs": 546,
-      "checkedAt": "2026-11-16T11:34:12.403Z"
+      "latencyMs": 417,
+      "checkedAt": "2026-11-23T12:59:55.800Z"
     },
     "https://github.com/ComposioHQ/awesome-claude-skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 497,
-      "checkedAt": "2026-11-16T11:34:12.428Z"
+      "latencyMs": 458,
+      "checkedAt": "2026-11-23T12:59:55.903Z"
     },
     "https://github.com/ComposioHQ/composio": {
       "ok": true,
       "status": 200,
-      "latencyMs": 551,
-      "checkedAt": "2026-11-16T11:34:12.575Z"
+      "latencyMs": 489,
+      "checkedAt": "2026-11-23T12:59:56.004Z"
     },
     "https://github.com/EleutherAI/lm-evaluation-harness": {
       "ok": true,
       "status": 200,
-      "latencyMs": 436,
-      "checkedAt": "2026-11-16T11:34:12.516Z"
+      "latencyMs": 427,
+      "checkedAt": "2026-11-23T12:59:55.976Z"
     },
     "https://github.com/FlowiseAI/Flowise": {
       "ok": true,
       "status": 200,
-      "latencyMs": 480,
-      "checkedAt": "2026-11-16T11:34:12.742Z"
+      "latencyMs": 766,
+      "checkedAt": "2026-11-23T12:59:56.401Z"
     },
     "https://github.com/FoundationAgents/MetaGPT": {
       "ok": true,
       "status": 200,
-      "latencyMs": 466,
-      "checkedAt": "2026-11-16T11:34:12.734Z"
+      "latencyMs": 536,
+      "checkedAt": "2026-11-23T12:59:56.345Z"
     },
     "https://github.com/FoundationAgents/OpenManus": {
       "ok": true,
       "status": 200,
-      "latencyMs": 397,
-      "checkedAt": "2026-11-16T11:34:12.806Z"
+      "latencyMs": 396,
+      "checkedAt": "2026-11-23T12:59:56.218Z"
     },
     "https://github.com/Giskard-AI/giskard-oss": {
       "ok": true,
       "status": 200,
-      "latencyMs": 552,
-      "checkedAt": "2026-11-16T11:34:12.962Z"
+      "latencyMs": 511,
+      "checkedAt": "2026-11-23T12:59:56.375Z"
     },
     "https://github.com/HKUDS/LightRAG": {
       "ok": true,
       "status": 200,
-      "latencyMs": 569,
-      "checkedAt": "2026-11-16T11:34:13.005Z"
+      "latencyMs": 624,
+      "checkedAt": "2026-11-23T12:59:56.535Z"
     },
     "https://github.com/Helicone/helicone": {
       "ok": true,
       "status": 200,
-      "latencyMs": 590,
-      "checkedAt": "2026-11-16T11:34:13.041Z"
+      "latencyMs": 543,
+      "checkedAt": "2026-11-23T12:59:56.528Z"
     },
     "https://github.com/Kong/kong": {
       "ok": true,
       "status": 200,
-      "latencyMs": 451,
-      "checkedAt": "2026-11-16T11:34:12.974Z"
+      "latencyMs": 432,
+      "checkedAt": "2026-11-23T12:59:56.425Z"
     },
     "https://github.com/Mintplex-Labs/anything-llm": {
       "ok": true,
       "status": 200,
-      "latencyMs": 474,
-      "checkedAt": "2026-11-16T11:34:13.058Z"
+      "latencyMs": 419,
+      "checkedAt": "2026-11-23T12:59:56.433Z"
     },
     "https://github.com/MoonshotAI/kimi-cli": {
       "ok": true,
       "status": 200,
-      "latencyMs": 472,
-      "checkedAt": "2026-11-16T11:34:13.215Z"
+      "latencyMs": 496,
+      "checkedAt": "2026-11-23T12:59:56.724Z"
     },
     "https://github.com/NVIDIA-NeMo/Guardrails": {
       "ok": true,
       "status": 200,
-      "latencyMs": 497,
-      "checkedAt": "2026-11-16T11:34:13.247Z"
+      "latencyMs": 550,
+      "checkedAt": "2026-11-23T12:59:56.905Z"
     },
     "https://github.com/NVIDIA/TensorRT-LLM": {
       "ok": true,
       "status": 200,
-      "latencyMs": 592,
-      "checkedAt": "2026-11-16T11:34:13.406Z"
+      "latencyMs": 475,
+      "checkedAt": "2026-11-23T12:59:56.858Z"
     },
     "https://github.com/NVIDIA/garak": {
       "ok": true,
       "status": 200,
-      "latencyMs": 444,
-      "checkedAt": "2026-11-16T11:34:13.414Z"
+      "latencyMs": 440,
+      "checkedAt": "2026-11-23T12:59:56.850Z"
     },
     "https://github.com/PipedreamHQ/pipedream": {
       "ok": true,
       "status": 200,
-      "latencyMs": 2702,
-      "checkedAt": "2026-11-16T11:34:15.684Z"
+      "latencyMs": 381,
+      "checkedAt": "2026-11-23T12:59:56.815Z"
     },
     "https://github.com/PrefectHQ/prefect": {
       "ok": true,
       "status": 200,
-      "latencyMs": 464,
-      "checkedAt": "2026-11-16T11:34:13.477Z"
+      "latencyMs": 432,
+      "checkedAt": "2026-11-23T12:59:56.874Z"
     },
     "https://github.com/QuivrHQ/quivr": {
       "ok": true,
       "status": 200,
-      "latencyMs": 583,
-      "checkedAt": "2026-11-16T11:34:13.632Z"
+      "latencyMs": 579,
+      "checkedAt": "2026-11-23T12:59:57.116Z"
     },
     "https://github.com/QwenLM/qwen-code": {
       "ok": true,
       "status": 200,
-      "latencyMs": 547,
-      "checkedAt": "2026-11-16T11:34:13.614Z"
+      "latencyMs": 432,
+      "checkedAt": "2026-11-23T12:59:56.976Z"
     },
     "https://github.com/SWE-agent/SWE-agent": {
       "ok": true,
       "status": 200,
-      "latencyMs": 440,
-      "checkedAt": "2026-11-16T11:34:13.663Z"
+      "latencyMs": 442,
+      "checkedAt": "2026-11-23T12:59:57.176Z"
     },
     "https://github.com/Significant-Gravitas/AutoGPT": {
       "ok": true,
       "status": 200,
-      "latencyMs": 516,
-      "checkedAt": "2026-11-16T11:34:13.771Z"
+      "latencyMs": 441,
+      "checkedAt": "2026-11-23T12:59:57.265Z"
     },
     "https://github.com/TheR1D/shell_gpt": {
       "ok": true,
       "status": 200,
-      "latencyMs": 435,
-      "checkedAt": "2026-11-16T11:34:13.848Z"
+      "latencyMs": 496,
+      "checkedAt": "2026-11-23T12:59:57.356Z"
     },
     "https://github.com/UKGovernmentBEIS/inspect_ai": {
       "ok": true,
       "status": 200,
-      "latencyMs": 443,
-      "checkedAt": "2026-11-16T11:34:13.864Z"
+      "latencyMs": 395,
+      "checkedAt": "2026-11-23T12:59:57.262Z"
     },
     "https://github.com/Unstructured-IO/unstructured": {
       "ok": true,
       "status": 200,
-      "latencyMs": 494,
-      "checkedAt": "2026-11-16T11:34:13.979Z"
+      "latencyMs": 434,
+      "checkedAt": "2026-11-23T12:59:57.316Z"
     },
     "https://github.com/VoltAgent/awesome-agent-skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 592,
-      "checkedAt": "2026-11-16T11:34:14.214Z"
+      "latencyMs": 456,
+      "checkedAt": "2026-11-23T12:59:57.370Z"
     },
     "https://github.com/VoltAgent/voltagent": {
       "ok": true,
       "status": 200,
-      "latencyMs": 538,
-      "checkedAt": "2026-11-16T11:34:14.178Z"
+      "latencyMs": 498,
+      "checkedAt": "2026-11-23T12:59:57.483Z"
     },
     "https://github.com/activepieces/activepieces": {
       "ok": true,
       "status": 200,
-      "latencyMs": 492,
-      "checkedAt": "2026-11-16T11:34:14.163Z"
+      "latencyMs": 465,
+      "checkedAt": "2026-11-23T12:59:57.590Z"
     },
     "https://github.com/agentscope-ai/agentscope": {
       "ok": true,
       "status": 200,
-      "latencyMs": 513,
-      "checkedAt": "2026-11-16T11:34:14.293Z"
+      "latencyMs": 458,
+      "checkedAt": "2026-11-23T12:59:57.642Z"
     },
     "https://github.com/agno-agi/agno": {
       "ok": true,
       "status": 200,
-      "latencyMs": 469,
-      "checkedAt": "2026-11-16T11:34:14.325Z"
+      "latencyMs": 429,
+      "checkedAt": "2026-11-23T12:59:57.701Z"
     },
     "https://github.com/alirezarezvani/claude-skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 468,
-      "checkedAt": "2026-11-16T11:34:14.340Z"
+      "latencyMs": 557,
+      "checkedAt": "2026-11-23T12:59:57.830Z"
     },
     "https://github.com/anomalyco/opencode": {
       "ok": true,
       "status": 200,
-      "latencyMs": 456,
-      "checkedAt": "2026-11-16T11:34:14.443Z"
+      "latencyMs": 427,
+      "checkedAt": "2026-11-23T12:59:57.751Z"
     },
     "https://github.com/anthropics/claude-code": {
       "ok": true,
       "status": 200,
-      "latencyMs": 354,
-      "checkedAt": "2026-11-16T11:34:14.525Z"
+      "latencyMs": 418,
+      "checkedAt": "2026-11-23T12:59:57.784Z"
     },
     "https://github.com/anthropics/courses": {
       "ok": true,
       "status": 200,
-      "latencyMs": 443,
-      "checkedAt": "2026-11-16T11:34:14.628Z"
+      "latencyMs": 523,
+      "checkedAt": "2026-11-23T12:59:57.901Z"
     },
     "https://github.com/anthropics/skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 466,
-      "checkedAt": "2026-11-16T11:34:14.689Z"
+      "latencyMs": 369,
+      "checkedAt": "2026-11-23T12:59:57.862Z"
     },
     "https://github.com/anthropics/skills/tree/main/skills/frontend-design": {
       "ok": true,
       "status": 200,
-      "latencyMs": 379,
-      "checkedAt": "2026-11-16T11:34:14.680Z"
+      "latencyMs": 297,
+      "checkedAt": "2026-11-23T12:59:57.896Z"
     },
     "https://github.com/anthropics/skills/tree/main/skills/skill-creator": {
       "ok": true,
       "status": 200,
-      "latencyMs": 315,
-      "checkedAt": "2026-11-16T11:34:14.648Z"
+      "latencyMs": 289,
+      "checkedAt": "2026-11-23T12:59:57.939Z"
     },
     "https://github.com/apache/airflow": {
       "ok": true,
       "status": 200,
-      "latencyMs": 562,
-      "checkedAt": "2026-11-16T11:34:14.909Z"
+      "latencyMs": 482,
+      "checkedAt": "2026-11-23T12:59:58.192Z"
     },
     "https://github.com/asgeirtj/system_prompts_leaks": {
       "ok": true,
       "status": 200,
-      "latencyMs": 408,
-      "checkedAt": "2026-11-16T11:34:14.859Z"
+      "latencyMs": 369,
+      "checkedAt": "2026-11-23T12:59:58.129Z"
     },
     "https://github.com/aws/amazon-q-developer-cli": {
       "ok": true,
       "status": 200,
-      "latencyMs": 500,
-      "checkedAt": "2026-11-16T11:34:15.032Z"
+      "latencyMs": 530,
+      "checkedAt": "2026-11-23T12:59:58.322Z"
     },
     "https://github.com/awslabs/mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 526,
-      "checkedAt": "2026-11-16T11:34:15.161Z"
+      "latencyMs": 500,
+      "checkedAt": "2026-11-23T12:59:58.338Z"
     },
     "https://github.com/bentoml/BentoML": {
       "ok": true,
       "status": 200,
-      "latencyMs": 522,
-      "checkedAt": "2026-11-16T11:34:15.179Z"
+      "latencyMs": 429,
+      "checkedAt": "2026-11-23T12:59:58.299Z"
     },
     "https://github.com/block/goose": {
       "ok": true,
       "status": 200,
-      "latencyMs": 732,
-      "checkedAt": "2026-11-16T11:34:15.420Z"
+      "latencyMs": 549,
+      "checkedAt": "2026-11-23T12:59:58.453Z"
     },
     "https://github.com/braintrustdata/braintrust-sdk": {
       "ok": true,
       "status": 200,
-      "latencyMs": 583,
-      "checkedAt": "2026-11-16T11:34:15.281Z"
+      "latencyMs": 658,
+      "checkedAt": "2026-11-23T12:59:58.568Z"
     },
     "https://github.com/browser-use/browser-use": {
       "ok": true,
       "status": 200,
-      "latencyMs": 518,
-      "checkedAt": "2026-11-16T11:34:15.386Z"
+      "latencyMs": 472,
+      "checkedAt": "2026-11-23T12:59:58.420Z"
     },
     "https://github.com/browserbase/mcp-server-browserbase": {
       "ok": true,
       "status": 200,
-      "latencyMs": 440,
-      "checkedAt": "2026-11-16T11:34:15.357Z"
+      "latencyMs": 532,
+      "checkedAt": "2026-11-23T12:59:58.670Z"
     },
     "https://github.com/camel-ai/camel": {
       "ok": true,
       "status": 200,
-      "latencyMs": 479,
-      "checkedAt": "2026-11-16T11:34:15.520Z"
+      "latencyMs": 447,
+      "checkedAt": "2026-11-23T12:59:58.648Z"
     },
     "https://github.com/charmbracelet/crush": {
       "ok": true,
       "status": 200,
-      "latencyMs": 565,
-      "checkedAt": "2026-11-16T11:34:15.735Z"
+      "latencyMs": 444,
+      "checkedAt": "2026-11-23T12:59:58.752Z"
     },
     "https://github.com/charmbracelet/mods": {
       "ok": true,
       "status": 200,
-      "latencyMs": 473,
-      "checkedAt": "2026-11-16T11:34:15.660Z"
+      "latencyMs": 556,
+      "checkedAt": "2026-11-23T12:59:58.887Z"
     },
     "https://github.com/chroma-core/chroma": {
       "ok": true,
       "status": 200,
-      "latencyMs": 494,
-      "checkedAt": "2026-11-16T11:34:15.783Z"
+      "latencyMs": 400,
+      "checkedAt": "2026-11-23T12:59:58.746Z"
     },
     "https://github.com/cloudflare/mcp-server-cloudflare": {
       "ok": true,
       "status": 200,
-      "latencyMs": 572,
-      "checkedAt": "2026-11-16T11:34:15.937Z"
+      "latencyMs": 493,
+      "checkedAt": "2026-11-23T12:59:58.922Z"
     },
     "https://github.com/comet-ml/opik": {
       "ok": true,
       "status": 200,
-      "latencyMs": 563,
-      "checkedAt": "2026-11-16T11:34:15.958Z"
+      "latencyMs": 495,
+      "checkedAt": "2026-11-23T12:59:58.957Z"
     },
     "https://github.com/conductor-oss/conductor": {
       "ok": true,
       "status": 200,
-      "latencyMs": 530,
-      "checkedAt": "2026-11-16T11:34:15.959Z"
+      "latencyMs": 531,
+      "checkedAt": "2026-11-23T12:59:59.108Z"
     },
     "https://github.com/confident-ai/deepeval": {
       "ok": true,
       "status": 200,
-      "latencyMs": 472,
-      "checkedAt": "2026-11-16T11:34:16.000Z"
+      "latencyMs": 490,
+      "checkedAt": "2026-11-23T12:59:59.145Z"
     },
     "https://github.com/containers/kubernetes-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 566,
-      "checkedAt": "2026-11-16T11:34:16.234Z"
+      "latencyMs": 635,
+      "checkedAt": "2026-11-23T12:59:59.315Z"
     },
     "https://github.com/continuedev/continue": {
       "ok": true,
       "status": 200,
-      "latencyMs": 593,
-      "checkedAt": "2026-11-16T11:34:16.285Z"
+      "latencyMs": 489,
+      "checkedAt": "2026-11-23T12:59:59.243Z"
     },
     "https://github.com/crewAIInc/crewAI": {
       "ok": true,
       "status": 200,
-      "latencyMs": 441,
-      "checkedAt": "2026-11-16T11:34:16.184Z"
+      "latencyMs": 440,
+      "checkedAt": "2026-11-23T12:59:59.200Z"
     },
     "https://github.com/crystaldba/postgres-mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 433,
-      "checkedAt": "2026-11-16T11:34:16.225Z"
+      "latencyMs": 421,
+      "checkedAt": "2026-11-23T12:59:59.318Z"
     },
     "https://github.com/dagster-io/dagster": {
       "ok": true,
       "status": 200,
-      "latencyMs": 511,
-      "checkedAt": "2026-11-16T11:34:16.456Z"
+      "latencyMs": 490,
+      "checkedAt": "2026-11-23T12:59:59.420Z"
     },
     "https://github.com/dair-ai/Prompt-Engineering-Guide": {
       "ok": true,
       "status": 200,
-      "latencyMs": 420,
-      "checkedAt": "2026-11-16T11:34:16.386Z"
+      "latencyMs": 471,
+      "checkedAt": "2026-11-23T12:59:59.436Z"
     },
     "https://github.com/danielmiessler/fabric": {
       "ok": true,
       "status": 200,
-      "latencyMs": 625,
-      "checkedAt": "2026-11-16T11:34:16.592Z"
+      "latencyMs": 384,
+      "checkedAt": "2026-11-23T12:59:59.501Z"
     },
     "https://github.com/danny-avila/LibreChat": {
       "ok": true,
       "status": 200,
-      "latencyMs": 635,
-      "checkedAt": "2026-11-16T11:34:16.645Z"
+      "latencyMs": 618,
+      "checkedAt": "2026-11-23T12:59:59.771Z"
     },
     "https://github.com/davila7/claude-code-templates": {
       "ok": true,
       "status": 200,
-      "latencyMs": 528,
-      "checkedAt": "2026-11-16T11:34:16.720Z"
+      "latencyMs": 462,
+      "checkedAt": "2026-11-23T12:59:59.671Z"
     },
     "https://github.com/daytonaio/daytona": {
       "ok": true,
       "status": 200,
-      "latencyMs": 540,
-      "checkedAt": "2026-11-16T11:34:16.773Z"
+      "latencyMs": 515,
+      "checkedAt": "2026-11-23T12:59:59.767Z"
     },
     "https://github.com/deepset-ai/haystack": {
       "ok": true,
       "status": 200,
-      "latencyMs": 498,
-      "checkedAt": "2026-11-16T11:34:16.740Z"
+      "latencyMs": 485,
+      "checkedAt": "2026-11-23T12:59:59.810Z"
     },
     "https://github.com/docker/mcp-gateway": {
       "ok": true,
       "status": 200,
-      "latencyMs": 485,
-      "checkedAt": "2026-11-16T11:34:16.780Z"
+      "latencyMs": 449,
+      "checkedAt": "2026-11-23T12:59:59.776Z"
     },
     "https://github.com/docling-project/docling": {
       "ok": true,
       "status": 200,
-      "latencyMs": 486,
-      "checkedAt": "2026-11-16T11:34:16.880Z"
+      "latencyMs": 442,
+      "checkedAt": "2026-11-23T12:59:59.871Z"
     },
     "https://github.com/e2b-dev/E2B": {
       "ok": true,
       "status": 200,
-      "latencyMs": 503,
-      "checkedAt": "2026-11-16T11:34:16.968Z"
+      "latencyMs": 476,
+      "checkedAt": "2026-11-23T12:59:59.920Z"
     },
     "https://github.com/elastic/elasticsearch": {
       "ok": true,
       "status": 200,
-      "latencyMs": 504,
-      "checkedAt": "2026-11-16T11:34:17.104Z"
+      "latencyMs": 441,
+      "checkedAt": "2026-11-23T12:59:59.950Z"
     },
     "https://github.com/envoyproxy/ai-gateway": {
       "ok": true,
       "status": 200,
-      "latencyMs": 657,
-      "checkedAt": "2026-11-16T11:34:17.310Z"
+      "latencyMs": 660,
+      "checkedAt": "2026-11-23T13:00:00.340Z"
     },
     "https://github.com/eth-sri/lmql": {
       "ok": true,
       "status": 200,
-      "latencyMs": 491,
-      "checkedAt": "2026-11-16T11:34:17.219Z"
+      "latencyMs": 377,
+      "checkedAt": "2026-11-23T13:00:00.154Z"
     },
     "https://github.com/evidentlyai/evidently": {
       "ok": true,
       "status": 200,
-      "latencyMs": 513,
-      "checkedAt": "2026-11-16T11:34:17.262Z"
+      "latencyMs": 450,
+      "checkedAt": "2026-11-23T13:00:00.231Z"
     },
     "https://github.com/exa-labs/exa-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 449,
-      "checkedAt": "2026-11-16T11:34:17.230Z"
+      "latencyMs": 394,
+      "checkedAt": "2026-11-23T13:00:00.178Z"
     },
     "https://github.com/explodinggradients/ragas": {
       "ok": true,
       "status": 200,
-      "latencyMs": 591,
-      "checkedAt": "2026-11-16T11:34:17.379Z"
+      "latencyMs": 636,
+      "checkedAt": "2026-11-23T13:00:00.454Z"
     },
     "https://github.com/f/awesome-chatgpt-prompts": {
       "ok": true,
       "status": 200,
-      "latencyMs": 569,
-      "checkedAt": "2026-11-16T11:34:17.458Z"
+      "latencyMs": 564,
+      "checkedAt": "2026-11-23T13:00:00.444Z"
     },
     "https://github.com/facebookresearch/faiss": {
       "ok": true,
       "status": 200,
-      "latencyMs": 626,
-      "checkedAt": "2026-11-16T11:34:17.602Z"
+      "latencyMs": 440,
+      "checkedAt": "2026-11-23T13:00:00.369Z"
     },
     "https://github.com/firecrawl/firecrawl-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 541,
-      "checkedAt": "2026-11-16T11:34:17.653Z"
+      "latencyMs": 614,
+      "checkedAt": "2026-11-23T13:00:00.573Z"
     },
     "https://github.com/frdel/agent-zero": {
       "ok": true,
       "status": 200,
-      "latencyMs": 564,
-      "checkedAt": "2026-11-16T11:34:17.791Z"
+      "latencyMs": 574,
+      "checkedAt": "2026-11-23T13:00:00.736Z"
     },
     "https://github.com/getsentry/sentry-mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 640,
-      "checkedAt": "2026-11-16T11:34:17.879Z"
+      "latencyMs": 574,
+      "checkedAt": "2026-11-23T13:00:00.760Z"
     },
     "https://github.com/ggml-org/llama.cpp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 594,
-      "checkedAt": "2026-11-16T11:34:17.866Z"
+      "latencyMs": 461,
+      "checkedAt": "2026-11-23T13:00:00.700Z"
     },
     "https://github.com/github/awesome-copilot": {
       "ok": true,
       "status": 200,
-      "latencyMs": 528,
-      "checkedAt": "2026-11-16T11:34:17.846Z"
+      "latencyMs": 517,
+      "checkedAt": "2026-11-23T13:00:00.867Z"
     },
     "https://github.com/github/copilot-cli": {
       "ok": true,
       "status": 200,
-      "latencyMs": 515,
-      "checkedAt": "2026-11-16T11:34:17.901Z"
+      "latencyMs": 493,
+      "checkedAt": "2026-11-23T13:00:00.871Z"
     },
     "https://github.com/github/github-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 501,
-      "checkedAt": "2026-11-16T11:34:17.967Z"
+      "latencyMs": 535,
+      "checkedAt": "2026-11-23T13:00:00.988Z"
     },
     "https://github.com/google-gemini/gemini-cli": {
       "ok": true,
       "status": 200,
-      "latencyMs": 486,
-      "checkedAt": "2026-11-16T11:34:18.096Z"
+      "latencyMs": 463,
+      "checkedAt": "2026-11-23T13:00:00.926Z"
     },
     "https://github.com/google/adk-python": {
       "ok": true,
       "status": 200,
-      "latencyMs": 503,
-      "checkedAt": "2026-11-16T11:34:18.164Z"
+      "latencyMs": 708,
+      "checkedAt": "2026-11-23T13:00:01.290Z"
     },
     "https://github.com/googlemaps/platform-ai": {
       "ok": true,
       "status": 200,
-      "latencyMs": 667,
-      "checkedAt": "2026-11-16T11:34:18.467Z"
+      "latencyMs": 708,
+      "checkedAt": "2026-11-23T13:00:01.417Z"
     },
     "https://github.com/gptme/gptme": {
       "ok": true,
       "status": 200,
-      "latencyMs": 584,
-      "checkedAt": "2026-11-16T11:34:18.439Z"
+      "latencyMs": 517,
+      "checkedAt": "2026-11-23T13:00:01.262Z"
     },
     "https://github.com/grafana/mcp-grafana": {
       "ok": true,
       "status": 200,
-      "latencyMs": 722,
-      "checkedAt": "2026-11-16T11:34:18.595Z"
+      "latencyMs": 527,
+      "checkedAt": "2026-11-23T13:00:01.296Z"
     },
     "https://github.com/guardrails-ai/guardrails": {
       "ok": true,
       "status": 200,
-      "latencyMs": 493,
-      "checkedAt": "2026-11-16T11:34:18.380Z"
+      "latencyMs": 433,
+      "checkedAt": "2026-11-23T13:00:01.308Z"
     },
     "https://github.com/guidance-ai/guidance": {
       "ok": true,
       "status": 200,
-      "latencyMs": 436,
-      "checkedAt": "2026-11-16T11:34:18.346Z"
+      "latencyMs": 498,
+      "checkedAt": "2026-11-23T13:00:01.377Z"
     },
     "https://github.com/hashicorp/terraform-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 555,
-      "checkedAt": "2026-11-16T11:34:18.530Z"
+      "latencyMs": 487,
+      "checkedAt": "2026-11-23T13:00:01.421Z"
     },
     "https://github.com/hatchet-dev/hatchet": {
       "ok": true,
       "status": 200,
-      "latencyMs": 536,
-      "checkedAt": "2026-11-16T11:34:18.641Z"
+      "latencyMs": 524,
+      "checkedAt": "2026-11-23T13:00:01.520Z"
     },
     "https://github.com/huggingface/skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 460,
-      "checkedAt": "2026-11-16T11:34:18.632Z"
+      "latencyMs": 506,
+      "checkedAt": "2026-11-23T13:00:01.777Z"
     },
     "https://github.com/huggingface/smolagents": {
       "ok": true,
       "status": 200,
-      "latencyMs": 484,
-      "checkedAt": "2026-11-16T11:34:18.838Z"
+      "latencyMs": 463,
+      "checkedAt": "2026-11-23T13:00:01.761Z"
     },
     "https://github.com/huggingface/text-generation-inference": {
       "ok": true,
       "status": 200,
-      "latencyMs": 414,
-      "checkedAt": "2026-11-16T11:34:18.801Z"
+      "latencyMs": 543,
+      "checkedAt": "2026-11-23T13:00:01.847Z"
     },
     "https://github.com/huginn/huginn": {
       "ok": true,
       "status": 200,
-      "latencyMs": 515,
-      "checkedAt": "2026-11-16T11:34:18.962Z"
+      "latencyMs": 484,
+      "checkedAt": "2026-11-23T13:00:01.800Z"
     },
     "https://github.com/i-am-bee/beeai-framework": {
       "ok": true,
       "status": 200,
-      "latencyMs": 471,
-      "checkedAt": "2026-11-16T11:34:18.946Z"
+      "latencyMs": 954,
+      "checkedAt": "2026-11-23T13:00:02.340Z"
     },
     "https://github.com/infiniflow/ragflow": {
       "ok": true,
       "status": 200,
-      "latencyMs": 474,
-      "checkedAt": "2026-11-16T11:34:19.013Z"
+      "latencyMs": 450,
+      "checkedAt": "2026-11-23T13:00:01.876Z"
     },
     "https://github.com/inngest/inngest": {
       "ok": true,
       "status": 200,
-      "latencyMs": 450,
-      "checkedAt": "2026-11-16T11:34:19.053Z"
+      "latencyMs": 506,
+      "checkedAt": "2026-11-23T13:00:01.936Z"
     },
     "https://github.com/kestra-io/kestra": {
       "ok": true,
       "status": 200,
-      "latencyMs": 546,
-      "checkedAt": "2026-11-16T11:34:19.186Z"
+      "latencyMs": 520,
+      "checkedAt": "2026-11-23T13:00:02.049Z"
     },
     "https://github.com/kserve/kserve": {
       "ok": true,
       "status": 200,
-      "latencyMs": 431,
-      "checkedAt": "2026-11-16T11:34:19.081Z"
+      "latencyMs": 488,
+      "checkedAt": "2026-11-23T13:00:02.259Z"
     },
     "https://github.com/lancedb/lancedb": {
       "ok": true,
       "status": 200,
-      "latencyMs": 392,
-      "checkedAt": "2026-11-16T11:34:19.201Z"
+      "latencyMs": 414,
+      "checkedAt": "2026-11-23T13:00:02.199Z"
     },
     "https://github.com/langchain-ai/langchain": {
       "ok": true,
       "status": 200,
-      "latencyMs": 468,
-      "checkedAt": "2026-11-16T11:34:19.314Z"
+      "latencyMs": 497,
+      "checkedAt": "2026-11-23T13:00:02.307Z"
     },
     "https://github.com/langchain-ai/langgraph": {
       "ok": true,
       "status": 200,
-      "latencyMs": 534,
-      "checkedAt": "2026-11-16T11:34:19.488Z"
+      "latencyMs": 448,
+      "checkedAt": "2026-11-23T13:00:02.304Z"
     },
     "https://github.com/langflow-ai/langflow": {
       "ok": true,
       "status": 200,
-      "latencyMs": 527,
-      "checkedAt": "2026-11-16T11:34:19.497Z"
+      "latencyMs": 564,
+      "checkedAt": "2026-11-23T13:00:02.448Z"
     },
     "https://github.com/langfuse/langfuse": {
       "ok": true,
       "status": 200,
-      "latencyMs": 531,
-      "checkedAt": "2026-11-16T11:34:19.552Z"
+      "latencyMs": 553,
+      "checkedAt": "2026-11-23T13:00:02.498Z"
     },
     "https://github.com/langgenius/dify": {
       "ok": true,
       "status": 200,
-      "latencyMs": 518,
-      "checkedAt": "2026-11-16T11:34:19.580Z"
+      "latencyMs": 479,
+      "checkedAt": "2026-11-23T13:00:02.537Z"
     },
     "https://github.com/langgptai/LangGPT": {
       "ok": true,
       "status": 200,
-      "latencyMs": 471,
-      "checkedAt": "2026-11-16T11:34:19.561Z"
+      "latencyMs": 563,
+      "checkedAt": "2026-11-23T13:00:02.770Z"
     },
     "https://github.com/lastmile-ai/mcp-agent": {
       "ok": true,
       "status": 200,
-      "latencyMs": 471,
-      "checkedAt": "2026-11-16T11:34:19.666Z"
+      "latencyMs": 530,
+      "checkedAt": "2026-11-23T13:00:02.797Z"
     },
     "https://github.com/letta-ai/letta": {
       "ok": true,
       "status": 200,
-      "latencyMs": 417,
-      "checkedAt": "2026-11-16T11:34:19.627Z"
+      "latencyMs": 437,
+      "checkedAt": "2026-11-23T13:00:02.750Z"
     },
     "https://github.com/lobehub/lobe-chat": {
       "ok": true,
       "status": 200,
-      "latencyMs": 653,
-      "checkedAt": "2026-11-16T11:34:19.975Z"
+      "latencyMs": 680,
+      "checkedAt": "2026-11-23T13:00:02.995Z"
     },
     "https://github.com/makenotion/notion-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 486,
-      "checkedAt": "2026-11-16T11:34:19.982Z"
+      "latencyMs": 435,
+      "checkedAt": "2026-11-23T13:00:02.783Z"
     },
     "https://github.com/mastra-ai/mastra": {
       "ok": true,
       "status": 200,
-      "latencyMs": 634,
-      "checkedAt": "2026-11-16T11:34:20.140Z"
+      "latencyMs": 510,
+      "checkedAt": "2026-11-23T13:00:02.968Z"
     },
     "https://github.com/microsoft/TaskWeaver": {
       "ok": true,
       "status": 200,
-      "latencyMs": 580,
-      "checkedAt": "2026-11-16T11:34:20.141Z"
+      "latencyMs": 558,
+      "checkedAt": "2026-11-23T13:00:03.065Z"
     },
     "https://github.com/microsoft/autogen": {
       "ok": true,
       "status": 200,
-      "latencyMs": 442,
-      "checkedAt": "2026-11-16T11:34:20.011Z"
+      "latencyMs": 493,
+      "checkedAt": "2026-11-23T13:00:03.039Z"
     },
     "https://github.com/microsoft/graphrag": {
       "ok": true,
       "status": 200,
-      "latencyMs": 479,
-      "checkedAt": "2026-11-16T11:34:20.067Z"
+      "latencyMs": 511,
+      "checkedAt": "2026-11-23T13:00:03.272Z"
     },
     "https://github.com/microsoft/mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 586,
-      "checkedAt": "2026-11-16T11:34:20.221Z"
+      "latencyMs": 491,
+      "checkedAt": "2026-11-23T13:00:03.270Z"
     },
     "https://github.com/microsoft/playwright-mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 497,
-      "checkedAt": "2026-11-16T11:34:20.171Z"
+      "latencyMs": 429,
+      "checkedAt": "2026-11-23T13:00:03.220Z"
     },
     "https://github.com/microsoft/promptbase": {
       "ok": true,
       "status": 200,
-      "latencyMs": 576,
-      "checkedAt": "2026-11-16T11:34:20.559Z"
+      "latencyMs": 593,
+      "checkedAt": "2026-11-23T13:00:03.398Z"
     },
     "https://github.com/microsoft/promptflow": {
       "ok": true,
       "status": 200,
-      "latencyMs": 901,
-      "checkedAt": "2026-11-16T11:34:20.891Z"
+      "latencyMs": 509,
+      "checkedAt": "2026-11-23T13:00:03.486Z"
     },
     "https://github.com/microsoft/semantic-kernel": {
       "ok": true,
       "status": 200,
-      "latencyMs": 483,
-      "checkedAt": "2026-11-16T11:34:20.502Z"
+      "latencyMs": 536,
+      "checkedAt": "2026-11-23T13:00:03.540Z"
     },
     "https://github.com/milvus-io/milvus": {
       "ok": true,
       "status": 200,
-      "latencyMs": 501,
-      "checkedAt": "2026-11-16T11:34:20.577Z"
+      "latencyMs": 435,
+      "checkedAt": "2026-11-23T13:00:03.483Z"
     },
     "https://github.com/modelcontextprotocol/python-sdk": {
       "ok": true,
       "status": 200,
-      "latencyMs": 456,
-      "checkedAt": "2026-11-16T11:34:20.604Z"
+      "latencyMs": 454,
+      "checkedAt": "2026-11-23T13:00:03.527Z"
     },
     "https://github.com/modelcontextprotocol/registry": {
       "ok": true,
       "status": 200,
-      "latencyMs": 480,
-      "checkedAt": "2026-11-16T11:34:20.629Z"
+      "latencyMs": 459,
+      "checkedAt": "2026-11-23T13:00:03.689Z"
     },
     "https://github.com/modelcontextprotocol/servers": {
       "ok": true,
       "status": 200,
-      "latencyMs": 466,
-      "checkedAt": "2026-11-16T11:34:20.646Z"
+      "latencyMs": 430,
+      "checkedAt": "2026-11-23T13:00:03.709Z"
     },
     "https://github.com/modelcontextprotocol/typescript-sdk": {
       "ok": true,
       "status": 200,
-      "latencyMs": 477,
-      "checkedAt": "2026-11-16T11:34:20.706Z"
+      "latencyMs": 531,
+      "checkedAt": "2026-11-23T13:00:03.811Z"
     },
     "https://github.com/mongodb-js/mongodb-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 445,
-      "checkedAt": "2026-11-16T11:34:20.955Z"
+      "latencyMs": 485,
+      "checkedAt": "2026-11-23T13:00:03.893Z"
     },
     "https://github.com/mudler/LocalAI": {
       "ok": true,
       "status": 200,
-      "latencyMs": 423,
-      "checkedAt": "2026-11-16T11:34:20.990Z"
+      "latencyMs": 544,
+      "checkedAt": "2026-11-23T13:00:04.036Z"
     },
     "https://github.com/musistudio/claude-code-router": {
       "ok": true,
       "status": 200,
-      "latencyMs": 528,
-      "checkedAt": "2026-11-16T11:34:21.113Z"
+      "latencyMs": 457,
+      "checkedAt": "2026-11-23T13:00:03.952Z"
     },
     "https://github.com/n8n-io/n8n": {
       "ok": true,
       "status": 200,
-      "latencyMs": 502,
-      "checkedAt": "2026-11-16T11:34:21.115Z"
+      "latencyMs": 560,
+      "checkedAt": "2026-11-23T13:00:04.096Z"
     },
     "https://github.com/neo4j-contrib/mcp-neo4j": {
       "ok": true,
       "status": 200,
-      "latencyMs": 564,
-      "checkedAt": "2026-11-16T11:34:21.201Z"
+      "latencyMs": 546,
+      "checkedAt": "2026-11-23T13:00:04.094Z"
     },
     "https://github.com/neo4j/neo4j-graphrag-python": {
       "ok": true,
       "status": 200,
-      "latencyMs": 525,
-      "checkedAt": "2026-11-16T11:34:21.179Z"
+      "latencyMs": 604,
+      "checkedAt": "2026-11-23T13:00:04.302Z"
     },
     "https://github.com/neuml/txtai": {
       "ok": true,
       "status": 200,
-      "latencyMs": 523,
-      "checkedAt": "2026-11-16T11:34:21.237Z"
+      "latencyMs": 462,
+      "checkedAt": "2026-11-23T13:00:04.179Z"
     },
     "https://github.com/node-red/node-red": {
       "ok": true,
       "status": 200,
-      "latencyMs": 451,
-      "checkedAt": "2026-11-16T11:34:21.350Z"
+      "latencyMs": 405,
+      "checkedAt": "2026-11-23T13:00:04.225Z"
     },
     "https://github.com/obra/superpowers": {
       "ok": true,
       "status": 200,
-      "latencyMs": 452,
-      "checkedAt": "2026-11-16T11:34:21.415Z"
+      "latencyMs": 429,
+      "checkedAt": "2026-11-23T13:00:04.331Z"
     },
     "https://github.com/ollama/ollama": {
       "ok": true,
       "status": 200,
-      "latencyMs": 431,
-      "checkedAt": "2026-11-16T11:34:21.429Z"
+      "latencyMs": 453,
+      "checkedAt": "2026-11-23T13:00:04.414Z"
     },
     "https://github.com/onyx-dot-app/onyx": {
       "ok": true,
       "status": 200,
-      "latencyMs": 536,
-      "checkedAt": "2026-11-16T11:34:21.659Z"
+      "latencyMs": 443,
+      "checkedAt": "2026-11-23T13:00:04.488Z"
     },
     "https://github.com/open-webui/open-webui": {
       "ok": true,
       "status": 200,
-      "latencyMs": 482,
-      "checkedAt": "2026-11-16T11:34:21.604Z"
+      "latencyMs": 446,
+      "checkedAt": "2026-11-23T13:00:04.550Z"
     },
     "https://github.com/openai/codex": {
       "ok": true,
       "status": 200,
-      "latencyMs": 426,
-      "checkedAt": "2026-11-16T11:34:21.613Z"
+      "latencyMs": 55,
+      "checkedAt": "2026-11-23T13:00:04.159Z"
     },
     "https://github.com/openai/evals": {
       "ok": true,
       "status": 200,
-      "latencyMs": 399,
-      "checkedAt": "2026-11-16T11:34:21.608Z"
+      "latencyMs": 407,
+      "checkedAt": "2026-11-23T13:00:04.574Z"
     },
     "https://github.com/openai/openai-agents-js": {
       "ok": true,
       "status": 200,
-      "latencyMs": 469,
-      "checkedAt": "2026-11-16T11:34:21.715Z"
+      "latencyMs": 472,
+      "checkedAt": "2026-11-23T13:00:04.659Z"
     },
     "https://github.com/openai/openai-agents-python": {
       "ok": true,
       "status": 200,
-      "latencyMs": 501,
-      "checkedAt": "2026-11-16T11:34:21.859Z"
+      "latencyMs": 392,
+      "checkedAt": "2026-11-23T13:00:04.626Z"
     },
     "https://github.com/openai/openai-cookbook": {
       "ok": true,
       "status": 200,
-      "latencyMs": 402,
-      "checkedAt": "2026-11-16T11:34:21.825Z"
+      "latencyMs": 435,
+      "checkedAt": "2026-11-23T13:00:04.746Z"
     },
     "https://github.com/openai/skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 408,
-      "checkedAt": "2026-11-16T11:34:21.846Z"
+      "latencyMs": 376,
+      "checkedAt": "2026-11-23T13:00:04.715Z"
     },
     "https://github.com/opensearch-project/OpenSearch": {
       "ok": true,
       "status": 200,
-      "latencyMs": 535,
-      "checkedAt": "2026-11-16T11:34:22.147Z"
+      "latencyMs": 449,
+      "checkedAt": "2026-11-23T13:00:04.871Z"
     },
     "https://github.com/pab1it0/prometheus-mcp-server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 447,
-      "checkedAt": "2026-11-16T11:34:22.063Z"
+      "latencyMs": 420,
+      "checkedAt": "2026-11-23T13:00:04.917Z"
     },
     "https://github.com/pgvector/pgvector": {
       "ok": true,
       "status": 200,
-      "latencyMs": 538,
-      "checkedAt": "2026-11-16T11:34:22.160Z"
+      "latencyMs": 466,
+      "checkedAt": "2026-11-23T13:00:05.024Z"
     },
     "https://github.com/plandex-ai/plandex": {
       "ok": true,
       "status": 200,
-      "latencyMs": 456,
-      "checkedAt": "2026-11-16T11:34:22.124Z"
+      "latencyMs": 386,
+      "checkedAt": "2026-11-23T13:00:04.969Z"
     },
     "https://github.com/promptfoo/promptfoo": {
       "ok": true,
       "status": 200,
-      "latencyMs": 536,
-      "checkedAt": "2026-11-16T11:34:22.260Z"
+      "latencyMs": 449,
+      "checkedAt": "2026-11-23T13:00:05.084Z"
     },
     "https://github.com/punkpeye/awesome-mcp-servers": {
       "ok": true,
       "status": 200,
-      "latencyMs": 538,
-      "checkedAt": "2026-11-16T11:34:22.371Z"
+      "latencyMs": 424,
+      "checkedAt": "2026-11-23T13:00:05.091Z"
     },
     "https://github.com/pydantic/pydantic-ai": {
       "ok": true,
       "status": 200,
-      "latencyMs": 404,
-      "checkedAt": "2026-11-16T11:34:22.258Z"
+      "latencyMs": 536,
+      "checkedAt": "2026-11-23T13:00:05.259Z"
     },
     "https://github.com/qdrant/qdrant": {
       "ok": true,
       "status": 200,
-      "latencyMs": 509,
-      "checkedAt": "2026-11-16T11:34:22.375Z"
+      "latencyMs": 563,
+      "checkedAt": "2026-11-23T13:00:05.318Z"
     },
     "https://github.com/ray-project/ray": {
       "ok": true,
       "status": 200,
-      "latencyMs": 443,
-      "checkedAt": "2026-11-16T11:34:22.514Z"
+      "latencyMs": 387,
+      "checkedAt": "2026-11-23T13:00:05.268Z"
     },
     "https://github.com/redis/mcp-redis": {
       "ok": true,
       "status": 200,
-      "latencyMs": 484,
-      "checkedAt": "2026-11-16T11:34:22.616Z"
+      "latencyMs": 427,
+      "checkedAt": "2026-11-23T13:00:05.353Z"
     },
     "https://github.com/restatedev/restate": {
       "ok": true,
       "status": 200,
-      "latencyMs": 529,
-      "checkedAt": "2026-11-16T11:34:22.684Z"
+      "latencyMs": 499,
+      "checkedAt": "2026-11-23T13:00:05.476Z"
     },
     "https://github.com/run-llama/llama_index": {
       "ok": true,
       "status": 200,
-      "latencyMs": 514,
-      "checkedAt": "2026-11-16T11:34:22.683Z"
+      "latencyMs": 124,
+      "checkedAt": "2026-11-23T13:00:05.157Z"
     },
     "https://github.com/sgl-project/sglang": {
       "ok": true,
       "status": 200,
-      "latencyMs": 543,
-      "checkedAt": "2026-11-16T11:34:22.810Z"
+      "latencyMs": 598,
+      "checkedAt": "2026-11-23T13:00:05.691Z"
     },
     "https://github.com/sigoden/aichat": {
       "ok": true,
       "status": 200,
-      "latencyMs": 458,
-      "checkedAt": "2026-11-16T11:34:22.725Z"
+      "latencyMs": 546,
+      "checkedAt": "2026-11-23T13:00:05.647Z"
     },
     "https://github.com/simonw/llm": {
       "ok": true,
       "status": 200,
-      "latencyMs": 455,
-      "checkedAt": "2026-11-16T11:34:22.835Z"
+      "latencyMs": 450,
+      "checkedAt": "2026-11-23T13:00:05.616Z"
     },
     "https://github.com/sooperset/mcp-atlassian": {
       "ok": true,
       "status": 200,
-      "latencyMs": 482,
-      "checkedAt": "2026-11-16T11:34:22.865Z"
+      "latencyMs": 467,
+      "checkedAt": "2026-11-23T13:00:05.736Z"
     },
     "https://github.com/stanfordnlp/dspy": {
       "ok": true,
       "status": 200,
-      "latencyMs": 425,
-      "checkedAt": "2026-11-16T11:34:22.946Z"
+      "latencyMs": 455,
+      "checkedAt": "2026-11-23T13:00:05.731Z"
     },
     "https://github.com/strands-agents/sdk-python": {
       "ok": true,
       "status": 200,
-      "latencyMs": 593,
-      "checkedAt": "2026-11-16T11:34:23.217Z"
+      "latencyMs": 646,
+      "checkedAt": "2026-11-23T13:00:05.973Z"
     },
     "https://github.com/stripe/agent-toolkit": {
       "ok": true,
       "status": 200,
-      "latencyMs": 644,
-      "checkedAt": "2026-11-16T11:34:23.334Z"
+      "latencyMs": 575,
+      "checkedAt": "2026-11-23T13:00:05.938Z"
     },
     "https://github.com/substratusai/kubeai": {
       "ok": true,
       "status": 200,
-      "latencyMs": 817,
-      "checkedAt": "2026-11-16T11:34:23.509Z"
+      "latencyMs": 568,
+      "checkedAt": "2026-11-23T13:00:06.053Z"
     },
     "https://github.com/supabase-community/supabase-mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 640,
-      "checkedAt": "2026-11-16T11:34:23.375Z"
+      "latencyMs": 804,
+      "checkedAt": "2026-11-23T13:00:06.430Z"
     },
     "https://github.com/tavily-ai/tavily-mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 453,
-      "checkedAt": "2026-11-16T11:34:23.270Z"
+      "latencyMs": 441,
+      "checkedAt": "2026-11-23T13:00:06.096Z"
     },
     "https://github.com/taylorwilsdon/google_workspace_mcp": {
       "ok": true,
       "status": 200,
-      "latencyMs": 482,
-      "checkedAt": "2026-11-16T11:34:23.324Z"
+      "latencyMs": 496,
+      "checkedAt": "2026-11-23T13:00:06.196Z"
     },
     "https://github.com/temporalio/temporal": {
       "ok": true,
       "status": 200,
-      "latencyMs": 542,
-      "checkedAt": "2026-11-16T11:34:23.416Z"
+      "latencyMs": 468,
+      "checkedAt": "2026-11-23T13:00:06.208Z"
     },
     "https://github.com/trailofbits/skills": {
       "ok": true,
       "status": 200,
-      "latencyMs": 621,
-      "checkedAt": "2026-11-16T11:34:23.575Z"
+      "latencyMs": 582,
+      "checkedAt": "2026-11-23T13:00:06.327Z"
     },
     "https://github.com/triggerdotdev/trigger.dev": {
       "ok": true,
       "status": 200,
-      "latencyMs": 556,
-      "checkedAt": "2026-11-16T11:34:23.781Z"
+      "latencyMs": 595,
+      "checkedAt": "2026-11-23T13:00:06.542Z"
     },
     "https://github.com/triton-inference-server/server": {
       "ok": true,
       "status": 200,
-      "latencyMs": 483,
-      "checkedAt": "2026-11-16T11:34:23.761Z"
+      "latencyMs": 525,
+      "checkedAt": "2026-11-23T13:00:06.507Z"
     },
     "https://github.com/truera/trulens": {
       "ok": true,
       "status": 200,
-      "latencyMs": 471,
-      "checkedAt": "2026-11-16T11:34:23.803Z"
+      "latencyMs": 555,
+      "checkedAt": "2026-11-23T13:00:06.618Z"
     },
     "https://github.com/upstash/context7": {
       "ok": true,
       "status": 200,
-      "latencyMs": 544,
-      "checkedAt": "2026-11-16T11:34:23.887Z"
+      "latencyMs": 457,
+      "checkedAt": "2026-11-23T13:00:06.562Z"
     },
     "https://github.com/uptrain-ai/uptrain": {
       "ok": true,
       "status": 200,
-      "latencyMs": 514,
-      "checkedAt": "2026-11-16T11:34:23.897Z"
+      "latencyMs": 736,
+      "checkedAt": "2026-11-23T13:00:06.941Z"
     },
     "https://github.com/vercel-labs/agent-browser": {
       "ok": true,
       "status": 200,
-      "latencyMs": 446,
-      "checkedAt": "2026-11-16T11:34:23.870Z"
+      "latencyMs": 548,
+      "checkedAt": "2026-11-23T13:00:06.765Z"
     },
     "https://github.com/vercel/ai": {
       "ok": true,
       "status": 200,
-      "latencyMs": 624,
-      "checkedAt": "2026-11-16T11:34:24.140Z"
+      "latencyMs": 605,
+      "checkedAt": "2026-11-23T13:00:06.943Z"
     },
     "https://github.com/vespa-engine/vespa": {
       "ok": true,
       "status": 200,
-      "latencyMs": 501,
-      "checkedAt": "2026-11-16T11:34:24.084Z"
+      "latencyMs": 584,
+      "checkedAt": "2026-11-23T13:00:07.023Z"
     },
     "https://github.com/vllm-project/vllm": {
       "ok": true,
       "status": 200,
-      "latencyMs": 443,
-      "checkedAt": "2026-11-16T11:34:24.213Z"
+      "latencyMs": 58,
+      "checkedAt": "2026-11-23T13:00:06.574Z"
     },
     "https://github.com/wandb/weave": {
       "ok": true,
       "status": 200,
-      "latencyMs": 487,
-      "checkedAt": "2026-11-16T11:34:24.276Z"
+      "latencyMs": 824,
+      "checkedAt": "2026-11-23T13:00:07.375Z"
     },
     "https://github.com/weaviate/weaviate": {
       "ok": true,
       "status": 200,
-      "latencyMs": 453,
-      "checkedAt": "2026-11-16T11:34:24.265Z"
+      "latencyMs": 511,
+      "checkedAt": "2026-11-23T13:00:07.083Z"
     },
     "https://github.com/windmill-labs/windmill": {
       "ok": true,
       "status": 200,
-      "latencyMs": 559,
-      "checkedAt": "2026-11-16T11:34:24.437Z"
+      "latencyMs": 553,
+      "checkedAt": "2026-11-23T13:00:07.136Z"
     },
     "https://github.com/wshobson/agents": {
       "ok": true,
       "status": 200,
-      "latencyMs": 407,
-      "checkedAt": "2026-11-16T11:34:24.302Z"
+      "latencyMs": 447,
+      "checkedAt": "2026-11-23T13:00:07.074Z"
     },
     "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools": {
       "ok": true,
       "status": 200,
-      "latencyMs": 427,
-      "checkedAt": "2026-11-16T11:34:24.331Z"
+      "latencyMs": 408,
+      "checkedAt": "2026-11-23T13:00:07.184Z"
     },
     "https://github.com/zylon-ai/private-gpt": {
       "ok": true,
       "status": 200,
-      "latencyMs": 421,
-      "checkedAt": "2026-11-16T11:34:24.512Z"
+      "latencyMs": 395,
+      "checkedAt": "2026-11-23T13:00:07.345Z"
     },
     "https://learnprompting.org/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 130,
-      "checkedAt": "2026-11-16T11:34:24.279Z"
+      "latencyMs": 204,
+      "checkedAt": "2026-11-23T13:00:07.158Z"
     },
     "https://openrouter.ai/docs/quickstart": {
       "ok": true,
       "status": 200,
-      "latencyMs": 138,
-      "checkedAt": "2026-11-16T11:34:24.359Z"
+      "latencyMs": 123,
+      "checkedAt": "2026-11-23T13:00:07.156Z"
     },
     "https://platform.moonshot.cn/docs/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 5223,
-      "checkedAt": "2026-11-16T11:34:29.496Z"
+      "latencyMs": 5046,
+      "checkedAt": "2026-11-23T13:00:12.131Z"
     },
     "https://platform.openai.com/docs/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 231,
-      "checkedAt": "2026-11-16T11:34:24.516Z"
+      "latencyMs": 94,
+      "checkedAt": "2026-11-23T13:00:07.186Z"
     },
     "https://platform.openai.com/docs/guides/prompt-engineering": {
       "ok": true,
       "status": 200,
-      "latencyMs": 329,
-      "checkedAt": "2026-11-16T11:34:24.616Z"
+      "latencyMs": 54,
+      "checkedAt": "2026-11-23T13:00:07.199Z"
     },
     "https://prompts.chat/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 631,
-      "checkedAt": "2026-11-16T11:34:24.942Z"
+      "latencyMs": 592,
+      "checkedAt": "2026-11-23T13:00:07.757Z"
     },
     "https://www.alibabacloud.com/help/en/model-studio/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 1085,
-      "checkedAt": "2026-11-16T11:34:25.425Z"
+      "latencyMs": 495,
+      "checkedAt": "2026-11-23T13:00:07.662Z"
     },
     "https://www.promptingguide.ai/zh": {
       "ok": true,
       "status": 200,
-      "latencyMs": 290,
-      "checkedAt": "2026-11-16T11:34:24.657Z"
+      "latencyMs": 77,
+      "checkedAt": "2026-11-23T13:00:07.270Z"
     },
     "https://www.pulumi.com/docs/ai/mcp-server/": {
       "ok": true,
       "status": 200,
-      "latencyMs": 388,
-      "checkedAt": "2026-11-16T11:34:24.834Z"
+      "latencyMs": 226,
+      "checkedAt": "2026-11-23T13:00:07.422Z"
     }
   }
 }
